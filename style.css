@@ -54,14 +54,19 @@ a {
 }
 
 .image-holder {
-    width: 450px;
-    height: 250px;
+    max-width: 450px;
+    max-height: 250px;
     margin-left: auto;
     margin-right: 100px;
     background: #808080;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img1 {
+    max-width: 450px;
+    max-height: 250px;
 }
 
 .page-title {
